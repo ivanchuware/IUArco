@@ -1,0 +1,92 @@
+<html>
+ <head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport"
+ content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet"
+ href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+ integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+ crossorigin="anonymous">
+
+  <title>Tabla con Puntuaciones</title>
+  </head>
+ <body>
+   <h1>Torneo "Campeonas de Málaga: Cuarta Edición"</h1>
+   <table style="text-align:center" class="table">
+     <thead class="thead-dark">
+ <tr>
+   <th scope="col"></th>
+   <th colspan=5 scope="col">Arquero 1</th>
+
+   <th colspan=5 scope="col">Arquero 2</th>
+ </tr>
+</thead>
+
+ <tr>
+   <td scope="row">Total</td>
+   <td colspan=5>33</td>
+   <td colspan=5>40</td>
+ </tr>
+ <tr>
+    <td scope="row">Amarillos Totales</td>
+    <td colspan=5>2</td>
+    <td colspan=5>2</td>
+ </tr>
+ <thead class="thead-dark">
+ <tr>
+   <th scope="col"></th>
+   <th scope="col">Flecha 1</th>
+   <th scope="col">Flecha 2</th>
+   <th scope="col">Flecha 3</th>
+   <th scope="col">Total Ronda</th>
+   <th scope="col">Amarillos</th>
+   <th scope="col">Flecha 1</th>
+   <th scope="col">Flecha 2</th>
+   <th scope="col">Flecha 3</th>
+   <th scope="col">Total Ronda</th>
+   <th scope="col">Amarillos</th>
+ </tr>
+</thead>
+ <tr>
+ <form method="get" action="/page2">
+ <th><button type="submit">Ronda 1</button</th>
+ </form>
+   <td>X</td>
+   <td>7</td>
+   <td>9</td>
+   <td>16</td>
+   <td>1</td>
+   <td>5</td>
+   <td>X</td>
+   <td>8</td>
+   <td>13</td>
+   <td>0</td>
+ </tr>
+
+ <tr>
+ <form method="get" action="/page2">
+ <th><button type="submit">Ronda 1</button</th>
+ </form>
+   <td>8</td>
+   <td>9</td>
+   <td>X</td>
+   <td>17</td>
+   <td>1</td>
+   <td>10</td>
+   <td>9</td>
+   <td>8</td>
+   <td>27</td>
+   <td>2</td>
+ </tr>
+
+</table>
+ </body>
+</html>
+
+
+
+<form method="get" action="/page2">
+<th><button type="submit">Ronda 1</button</th>
+</form>
