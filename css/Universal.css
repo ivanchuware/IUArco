@@ -23,3 +23,13 @@ body {
     background-color: #F6E7DD;
     border-color: #234766; /*set the color you want here*/
 }
+
+a {
+  color: #951D0F;
+}
+
+.nav-link {
+	background: #FFF9F5;
+	border-color: #C06055;
+	color: #951D0F;
+}
