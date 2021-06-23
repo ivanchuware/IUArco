@@ -1,0 +1,25 @@
+body {
+  height: 100%;
+}
+
+body {
+  color: #C06055;
+  background-color: #FAF2EC;
+}
+
+.card {
+  border-color: #C06055;
+  background-color: #F6E4D7;
+}
+
+.btn {
+	background: #FAF2EC;
+	border-color: #C06055;
+	color: #C06055;
+}
+
+.btn:hover, .btn:focus, .btn:active, .btn.active, .open>.dropdown-toggle.btn {
+    color: #000000;
+    background-color: #EBFFFE;
+    border-color: #285e8e; /*set the color you want here*/
+}
