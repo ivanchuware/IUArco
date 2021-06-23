@@ -13,13 +13,13 @@ body {
 }
 
 .btn {
-	background: #FAF1EB;
+	background: #FFF9F5;
 	border-color: #C06055;
 	color: #951D0F;
 }
 
 .btn:hover, .btn:focus, .btn:active, .btn.active, .open>.dropdown-toggle.btn {
-    color: #951D0F;
+    color: #234766;
     background-color: #F6E7DD;
-    border-color: #285e8e; /*set the color you want here*/
+    border-color: #234766; /*set the color you want here*/
 }
